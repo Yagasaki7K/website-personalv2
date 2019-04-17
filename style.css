@@ -1,0 +1,122 @@
+body {
+    background-color: #16141A;
+    color: #CEC5DD;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+img {
+    mix-blend-mode: lighten;
+}
+
+a {
+    color: #CEC5DD;
+    outline: none;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(253, 177, 5), rgb(253, 177, 5));
+    background-size: 100% .5em;
+    background-repeat: no-repeat;
+    background-position: left 0 bottom -50%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #CEC5DD;
+}
+
+#footer {
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+}
+
+#copyright {
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 4em 0;
+}
+
+#social :not(.social) {
+    background: none;
+    background-position: bottom 0%;
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) {  
+    #text-container {
+        margin: 0 auto;
+        width: 50%;
+        text-align: left;  
+    }
+
+    #text-container2 {
+        margin: 0 auto;
+        width: 50%;
+        text-align: left;
+    }
+    
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (max-width: 768px) { 
+    #text-container {
+        margin: 0 auto;
+        width: 100%;
+        text-align: left;  
+    }
+
+    #text-container2 {
+        margin: 0 auto;
+        width: 100%;
+        text-align: right;
+    }
+
+    p {
+        font-size: 11px;
+    }
+ }
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 769px) {
+    #text-container {
+        margin: 0 auto;
+        width: 50%;
+        text-align: left;  
+    }
+
+    #text-container2 {
+        margin: 0 auto;
+        width: 60%;
+        text-align: right;
+        margin-top: -60px;
+    }
+
+    h2 {
+        margin-top: 50px;
+    }
+ }
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) { 
+    #text-container {
+        margin: 0 auto;
+        width: 50%;
+        text-align: left;  
+    }
+
+    #text-container2 {
+        margin: 0 auto;
+        width: 60%;
+        text-align: right;
+        font-size: 12px;
+    }
+}
