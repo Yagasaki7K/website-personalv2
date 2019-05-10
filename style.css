@@ -1,6 +1,6 @@
 body {
     background-color: #16141A;
-    color: #CEC5DD;
+    color: #dedfbd;
 }
 
 h2 {
@@ -12,12 +12,18 @@ p {
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
 }
+
+hr {
+    width: 50%;
+    background-color: #DEDFBD;
+}
+
 img {
     mix-blend-mode: lighten;
 }
 
 a {
-    color: #CEC5DD;
+    color: #dedfbd;
     outline: none;
     text-decoration: none;
     background-image: linear-gradient(rgb(253, 177, 5), rgb(253, 177, 5));
@@ -28,7 +34,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #CEC5DD;
+    color: #dedfbd;
 }
 
 #footer {
